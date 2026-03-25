@@ -48,10 +48,10 @@ flowchart TD
     B --> C[Model Initialization]
 
     C --> D[Forward Propagation]
-    D --> E[Hidden Layer (tanh)]
-    E --> F[Output Layer (sigmoid)]
+    D --> E[Hidden Layer - tanh]
+    E --> F[Output Layer - sigmoid]
 
-    F --> G[Cost Computation (Binary Cross-Entropy)]
+    F --> G[Cost Computation - Binary Cross-Entropy]
 
     G --> H[Backward Propagation]
     H --> I[Gradient Computation]
@@ -69,8 +69,8 @@ flowchart TD
 | Layer         | Description |
 |--------------|------------|
 | Input Layer   | 2 features |
-| Hidden Layer  | Configurable (default = 4 neurons) |
-| Output Layer  | 1 neuron (binary classification) |
+| Hidden Layer  | Configurable - default = 4 neurons |
+| Output Layer  | 1 neuron - binary classification |
 
 ---
 
